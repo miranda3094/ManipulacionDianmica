@@ -21,8 +21,12 @@ crearElementoBtn.addEventListener('click', function(){
 
     contenedor.appendChild(nuevoParrafo);
     console.log('Parrafo añadido dinamicamente');
+
+    parrafoCreado = nuevoParrafo;
 });
 
 cambiarEstiloBtn.addEventListener('click', () =>  {
-
+    parrafoCreado.style.fontSize = '22px';
+    parrafoCreado.style.color = 'green';
+    parrafoCreado.style.backgroundColor = '#fff0f0';
 });
