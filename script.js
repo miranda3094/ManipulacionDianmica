@@ -29,4 +29,14 @@ cambiarEstiloBtn.addEventListener('click', () =>  {
     parrafoCreado.style.fontSize = '22px';
     parrafoCreado.style.color = 'green';
     parrafoCreado.style.backgroundColor = '#fff0f0';
+
+    if (contenedor.classList.contains('resaltado')){
+        contenedor.classList.remove('resaltado');
+        contenedor.style.backgroundColor = 'orange';
+        contenedor.style.color = 'white';
+        contenedor.style.borderColor = '';
+        contenedor.style.fontWeight = '';
+    }else{
+        contenedor.classList.add('resaltado'); 
+    }
 });
