@@ -34,7 +34,7 @@ cambiarEstiloBtn.addEventListener('click', () =>  {
         contenedor.classList.remove('resaltado');
         contenedor.style.backgroundColor = 'orange';
         contenedor.style.color = 'white';
-        contenedor.style.borderColor = '';
+        contenedor.style.borderColor = '#00FF00';
         contenedor.style.fontWeight = '';
     }else{
         contenedor.classList.add('resaltado'); 
